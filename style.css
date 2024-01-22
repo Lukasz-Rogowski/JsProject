@@ -1,0 +1,70 @@
+
+.header {
+    background-color: #000080;
+    color: white;
+  }
+  
+
+  .column {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+
+  .input {
+    background-color: #f2f2f2;
+    display:grid;
+   
+  }
+  
+
+  button {
+    border: none;
+    border-radius: 5px;
+    background-color: #000080;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #555555;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: rgb(220, 220, 220);
+    margin: 10px;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-item #h3srednia {
+  text-align: right;
+}
+
+#left-column {
+    text-align: left;
+}
+
+#right-column {
+    text-align: right;
+}
+
+.green{
+  color: green;
+  
+}
+
+.red{
+  color: red;
+}
+
+#wynik {
+  font-size: 30;
+}
+
